@@ -28,5 +28,11 @@
   </applications>
   <modules/>
   <buildCSSFiles/>
+  <publishSource>
+    <sourcePathIncludes/>
+    <sourceExcludes>
+      <exclude path="src/flash/tandem/api-key.as"/>
+    </sourceExcludes>
+  </publishSource>
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
 </actionScriptProperties>
