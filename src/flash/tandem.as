@@ -35,6 +35,14 @@ public class tandem extends Sprite
 {
     //--------------------------------------------------------------------------
     //
+    //  Class constants
+    //
+    //--------------------------------------------------------------------------
+
+    private static const VIEW_SOURCE_URL : String = "https://github.com/gasi/tandem"
+
+    //--------------------------------------------------------------------------
+    //
     //  Constructor
     //
     //--------------------------------------------------------------------------
@@ -48,7 +56,7 @@ public class tandem extends Sprite
 		application = new Application()
 
 		// enable view source
-        ViewSource.addMenuItem( application, "source/index.html" )
+        ViewSource.addMenuItem( application, VIEW_SOURCE_URL )
 
         // go, go, go!
         addChild( application )
