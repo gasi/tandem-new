@@ -1,7 +1,7 @@
 # Tandem  
   
 tandem is released under the GNU Affero General Public License Version 3.
-For further information please have a look at LICENSE.txt or go to
+For further information please have a look at <LICENSE.txt> or go to
 <http://www.fsf.org/licensing/licenses/agpl-3.0.html>
 
 ## Setup
